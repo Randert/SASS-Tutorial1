@@ -1,0 +1,31 @@
+$h1: cyan;
+
+@import 'fonts';
+@import 'mixins';
+
+
+body {
+    background-color: tan;
+}
+
+h1 {
+    color: $h1;
+}
+
+.list ol, ul, li {
+    font-family: $list-fonts;
+}
+
+.list {
+    a {
+        color: firebrick;
+        font-family: $a-fonts;
+    }
+    li {
+        background-color: white;
+    }
+}
+
+p {
+    @include default-text-style(3em);
+}
