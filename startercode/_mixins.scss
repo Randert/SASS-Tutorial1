@@ -1,0 +1,5 @@
+@mixin default-text-style($size: 1em){
+  font-size: $size;
+  text-transform: uppercase;
+  color: aquamarine;
+}

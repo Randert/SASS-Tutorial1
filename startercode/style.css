@@ -1,0 +1,21 @@
+body {
+  background-color: tan; }
+
+h1 {
+  color: cyan; }
+
+.list ol, ul, li {
+  font-family: Helvetica Neue Light, Helvetica Neue, sans-serif; }
+
+.list a {
+  color: firebrick;
+  font-family: Zapfino, sans-serif; }
+.list li {
+  background-color: white; }
+
+p {
+  font-size: 3em;
+  text-transform: uppercase;
+  color: aquamarine; }
+
+/*# sourceMappingURL=style.css.map */
